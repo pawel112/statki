@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+SET (name Statki)
+SET (sources ustawienia.cpp gra.cpp gra2.cpp menu.cpp zapis_odczyt.cpp glowny.cpp ruchy_komputera.cpp)
+SET (headers gra.h gra2.h zapis_odczyt.h menu.h ustawienia.h ruchy_komputera.h)
+project (${name})
+add_executable (${name} ${sources} ${headers})
